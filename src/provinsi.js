@@ -21,10 +21,10 @@ const Provinsi = () => {
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
+            <th>Provinsi</th>
+            <th>Positif</th>
+            <th>Sembuh</th>
+            <th>Meninggal</th>
           </tr>
         </thead>
         <tbody>
