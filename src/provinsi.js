@@ -1,6 +1,6 @@
 import './App.css';
 
-function provinsi() {
+const Provinsi =()=> {
   return (
     <div>
       provinsi
@@ -8,4 +8,4 @@ function provinsi() {
   );
 }
 
-export default provinsi;
+export default Provinsi;

@@ -4,7 +4,7 @@ import global from "./global";
 import indo from "./indo";
 import provinsi from "./provinsi";
 
-function App() {
+const App =()=> {
   return (
     <BrowserRouter>
     <div >
