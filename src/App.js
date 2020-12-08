@@ -25,15 +25,7 @@ const App = () => {
           </Navbar.Collapse>
         </Navbar>
           <ul>
-            <li>
-              <Link to='/'>Global</Link>
-            </li>
-            <li>
-              <Link to='/indonesia'>Indonesia</Link>
-            </li>
-            <li>
-              <Link to='/provinsi'>Provinsi</Link>
-            </li>
+
           </ul>
         </nav>
         <Switch>
