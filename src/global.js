@@ -21,7 +21,7 @@ const Global = () => {
   return (
     <div>
       Jumlah Kasus seluruh Indonesia
-      <h2>confirm {corona.positif}</h2>
+      <h2>positif {corona.positif}</h2>
       <h2>sembuh {corona.sembuh}</h2>
       <h2>meninggal {corona.meninggal}</h2>
     </div>
