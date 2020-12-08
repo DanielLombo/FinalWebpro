@@ -17,7 +17,7 @@ const Provinsi = () => {
   return (
     <div>
 
-      provinsi
+      Jumlah Kasus Per provinsi
       <Table striped bordered hover size="sm">
         <thead>
           <tr>

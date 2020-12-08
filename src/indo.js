@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { Card } from 'react-bootstrap';
 
 const Indo =()=> {
   const [indonesia, setIndonesia] = useState({ positif: NaN, meninggal: NaN, sembuh: NaN })
@@ -18,8 +19,11 @@ const Indo =()=> {
       .catch((err) => console.log(err))
   })
   return (
+    
+ 
+    
     <div>
-      indo
+      Junlah Kasus Indonesia
       <h2>confirm {indonesia.positif}</h2>
       <h2>sembuh {indonesia.sembuh}</h2>
       <h2>meninggal {indonesia.meninggal}</h2>
