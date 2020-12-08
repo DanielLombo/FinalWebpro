@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+import { Card, ListGroup } from 'react-bootstrap';
 
 
 const Indo =()=> {
@@ -20,14 +20,19 @@ const Indo =()=> {
       .catch((err) => console.log(err))
   })
   return (
-    
     <div>
-     
-      Jumlah Kasus Indonesia
-      <h2>confirm {indonesia.positif}</h2>
-      <h2>sembuh {indonesia.sembuh}</h2>
-      <h2>meninggal {indonesia.meninggal}</h2>
-    </div>
+    jumlah Kasus seluruh indonesia
+  <Card bg = "secondary"  style = {{ width : '20rem', paddingRight : '0.25rem',paddingTop : '0.50rem', paddingBottom : '0.50rem'}}>
+  <ListGroup variant = "flush">
+<ListGroup.Item>positif : { indonesia.positif}</ListGroup.Item>
+<ListGroup.Item>sembuh : { indonesia.sembuh}</ListGroup.Item>
+<ListGroup.Item>meninggal : { indonesia.meninggal}</ListGroup.Item>
+
+  </ListGroup>
+
+  </Card>
+ 
+  </div >
   );
 }
 
